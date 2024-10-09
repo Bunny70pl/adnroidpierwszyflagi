@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#047A0A"
+    android:background="@color/zielonyDoTla"
     tools:context=".MainActivity">
 
 
@@ -14,10 +14,10 @@
         android:id="@+id/tekst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:textSize="@dimen/rozmiarCzcionki"
         android:layout_margin="16dp"
         android:textAlignment="center"
-        android:text="Które kolory nie wystepuja we fladze Polski?" />
+        android:text="@string/Pytanie" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -27,26 +27,26 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFEB3B"
+            android:backgroundTint="@color/zolty"
             android:onClick="dobraOdpowiedz"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/marginesPrzycisku"
             />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="@color/white1"
             android:onClick="zlaOdpowiedz"
-            android:layout_margin="16dp"/>
+            android:layout_margin="@dimen/marginesPrzycisku"/>
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#00FF55"
+            android:backgroundTint="@color/green"
             android:onClick="dobraOdpowiedz"
-            android:layout_margin="16dp"/>
+            android:layout_margin="@dimen/marginesPrzycisku"/>
 
     </LinearLayout>
 
@@ -59,25 +59,25 @@
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#00FFC3"
+            android:backgroundTint="@color/Turkusowy"
             android:onClick="dobraOdpowiedz"
-            android:layout_margin="16dp"/>
+            android:layout_margin="@dimen/marginesPrzycisku"/>
 
         <Button
             android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#D900FF"
+            android:backgroundTint="@color/magenta"
             android:onClick="dobraOdpowiedz"
-            android:layout_margin="16dp"/>
+            android:layout_margin="@dimen/marginesPrzycisku"/>
 
         <Button
             android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FF0000"
+            android:backgroundTint="@color/red"
             android:onClick="zlaOdpowiedz"
-            android:layout_margin="16dp"/>
+            android:layout_margin="@dimen/marginesPrzycisku"/>
     </LinearLayout>
 
 </LinearLayout>

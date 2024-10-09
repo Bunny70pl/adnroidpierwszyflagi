@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Flagi3a</string>
+    <string name="Pytanie">Które kolory nie wystepuja we fladze Polski?</string>
+    <string name="Podsumowanie">To jest falga Polski</string>
 </resources>
